@@ -104,6 +104,7 @@
 (require 'init-elm)
 (require 'init-purescript)
 (require 'init-ruby)
+(require 'init-rvm)
 (require 'init-rails)
 (require 'init-sql)
 (require 'init-rust)
@@ -175,7 +176,6 @@
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
 (require 'init-local nil t)
-
 
 
 (provide 'init)
